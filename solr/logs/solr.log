@@ -3350,3 +3350,113 @@ INFO  - 2013-08-19 11:37:39.622; org.apache.solr.core.CachingDirectoryFactory; l
 INFO  - 2013-08-19 11:37:39.622; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index
 INFO  - 2013-08-19 11:37:39.624; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/hettelj/Desktop/kircher/solr/solr-webapp/webapp/},/Users/hettelj/Desktop/kircher/solr/webapps/solr.war
 INFO  - 2013-08-19 11:37:39.677; org.eclipse.jetty.util.thread.ShutdownThread; shutdown already commenced
+INFO  - 2013-08-19 13:12:30.304; org.eclipse.jetty.server.Server; jetty-8.1.8.v20121106
+INFO  - 2013-08-19 13:12:30.335; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/hettelj/Desktop/kircher/solr/contexts at interval 0
+INFO  - 2013-08-19 13:12:30.397; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/hettelj/Desktop/kircher/solr/contexts/solr-jetty-context.xml
+INFO  - 2013-08-19 13:12:31.155; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-08-19 13:12:31.269; org.eclipse.jetty.server.handler.ContextHandler; started o.e.j.w.WebAppContext{/solr,file:/Users/hettelj/Desktop/kircher/solr/solr-webapp/webapp/},/Users/hettelj/Desktop/kircher/solr/webapps/solr.war
+INFO  - 2013-08-19 13:12:31.269; org.eclipse.jetty.server.handler.ContextHandler; started o.e.j.w.WebAppContext{/solr,file:/Users/hettelj/Desktop/kircher/solr/solr-webapp/webapp/},/Users/hettelj/Desktop/kircher/solr/webapps/solr.war
+INFO  - 2013-08-19 13:12:31.282; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-08-19 13:12:31.296; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-08-19 13:12:31.296; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2013-08-19 13:12:31.306; org.apache.solr.core.CoreContainer$Initializer; looking for solr config file: /Users/hettelj/Desktop/kircher/solr/solr/solr.xml
+INFO  - 2013-08-19 13:12:31.308; org.apache.solr.core.CoreContainer; New CoreContainer 168046774
+INFO  - 2013-08-19 13:12:31.308; org.apache.solr.core.CoreContainer; Loading CoreContainer using Solr Home: 'solr/'
+INFO  - 2013-08-19 13:12:31.309; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2013-08-19 13:12:31.533; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-08-19 13:12:31.533; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-08-19 13:12:31.533; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-08-19 13:12:31.535; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-08-19 13:12:31.535; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-08-19 13:12:31.536; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-08-19 13:12:31.536; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-08-19 13:12:31.536; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-08-19 13:12:31.536; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-08-19 13:12:31.542; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-08-19 13:12:31.718; org.apache.solr.core.CoreContainer; Registering Log Listener
+INFO  - 2013-08-19 13:12:31.732; org.apache.solr.core.CoreContainer; Creating SolrCore 'kircher' using instanceDir: solr/kircher
+INFO  - 2013-08-19 13:12:31.733; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/kircher/'
+INFO  - 2013-08-19 13:12:31.769; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2013-08-19 13:12:31.769; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/extraction/lib).
+WARN  - 2013-08-19 13:12:31.770; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 13:12:31.770; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/clustering/lib).
+WARN  - 2013-08-19 13:12:31.770; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 13:12:31.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/langid/lib).
+WARN  - 2013-08-19 13:12:31.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 13:12:31.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/velocity/lib).
+WARN  - 2013-08-19 13:12:31.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 13:12:31.772; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: /total/crap/dir/ignored (resolved as: /total/crap/dir/ignored).
+INFO  - 2013-08-19 13:12:31.851; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_42
+INFO  - 2013-08-19 13:12:31.927; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-08-19 13:12:31.931; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-08-19 13:12:32.027; org.apache.solr.schema.IndexSchema; [kircher] Schema name=kircher
+INFO  - 2013-08-19 13:12:32.818; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2013-08-19 13:12:32.819; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-08-19 13:12:32.820; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-08-19 13:12:33.721; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-08-19 13:12:33.727; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-08-19 13:12:33.928; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-08-19 13:12:33.932; org.apache.solr.core.SolrCore; [kircher] Opening new SolrCore at solr/kircher/, dataDir=/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/
+INFO  - 2013-08-19 13:12:33.932; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: kircher
+INFO  - 2013-08-19 13:12:33.933; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-08-19 13:12:33.941; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/hettelj/Desktop/kircher/solr/solr/kircher/data
+INFO  - 2013-08-19 13:12:33.964; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index/
+INFO  - 2013-08-19 13:12:33.978; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index
+INFO  - 2013-08-19 13:12:34.051; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-08-19 13:12:34.052; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-08-19 13:12:34.052; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-08-19 13:12:34.052; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-08-19 13:12:34.052; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-08-19 13:12:34.054; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-08-19 13:12:34.055; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-08-19 13:12:34.056; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-08-19 13:12:34.059; org.apache.solr.core.RequestHandlers; created search: solr.SearchHandler
+INFO  - 2013-08-19 13:12:34.059; org.apache.solr.core.RequestHandlers; created document: solr.SearchHandler
+INFO  - 2013-08-19 13:12:34.059; org.apache.solr.core.RequestHandlers; created advanced: solr.SearchHandler
+INFO  - 2013-08-19 13:12:34.071; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-08-19 13:12:34.185; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@34f34071 main
+INFO  - 2013-08-19 13:12:34.207; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-08-19 13:12:34.207; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-08-19 13:12:34.207; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-08-19 13:12:34.249; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: default
+INFO  - 2013-08-19 13:12:34.293; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: names
+INFO  - 2013-08-19 13:12:34.301; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: places
+INFO  - 2013-08-19 13:12:34.315; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: title
+INFO  - 2013-08-19 13:12:34.315; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-08-19 13:12:34.335; org.apache.solr.core.SolrCore; [kircher] Registered new searcher Searcher@34f34071 main{StandardDirectoryReader(segments_h:33 _8(4.3.1):C2609)}
+INFO  - 2013-08-19 13:12:34.336; org.apache.solr.core.CoreContainer; registering core: kircher
+INFO  - 2013-08-19 13:12:34.338; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/hettelj/Desktop/kircher/solr
+INFO  - 2013-08-19 13:12:34.338; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-08-19 13:12:34.377; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-08-19 13:12:51.596; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@478dabf1; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_h,generation=17,filenames=[_8.si, _8_Lucene41_0.doc, _8.fnm, _8_Lucene41_0.pos, _8.nvd, _8.fdx, _8_Lucene41_0.tim, _8.nvm, _8_Lucene41_0.tip, _8.fdt, segments_h]
+INFO  - 2013-08-19 13:12:51.596; org.apache.solr.core.SolrDeletionPolicy; newest commit = 17[_8.si, _8_Lucene41_0.doc, _8.fnm, _8_Lucene41_0.pos, _8.nvd, _8.fdx, _8_Lucene41_0.tim, _8.nvm, _8_Lucene41_0.tip, _8.fdt, segments_h]
+INFO  - 2013-08-19 13:12:51.681; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@132c08c7 realtime
+INFO  - 2013-08-19 13:12:51.682; org.apache.solr.update.processor.LogUpdateProcessor; [kircher] webapp=/solr path=/update params={} {deleteByQuery=*:* (-1443829562997735424)} 0 215
+INFO  - 2013-08-19 13:12:55.597; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2013-08-19 13:12:55.658; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@478dabf1; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_h,generation=17,filenames=[_8.si, _8_Lucene41_0.doc, _8.fnm, _8_Lucene41_0.pos, _8.nvd, _8.fdx, _8_Lucene41_0.tim, _8.nvm, _8_Lucene41_0.tip, _8.fdt, segments_h]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@478dabf1; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_i,generation=18,filenames=[segments_i]
+INFO  - 2013-08-19 13:12:55.658; org.apache.solr.core.SolrDeletionPolicy; newest commit = 18[segments_i]
+INFO  - 2013-08-19 13:12:56.493; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4e668387 main
+INFO  - 2013-08-19 13:12:56.496; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2013-08-19 13:12:56.496; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Index is not optimized therefore skipping building spell check index for: default
+INFO  - 2013-08-19 13:12:56.497; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Index is not optimized therefore skipping building spell check index for: names
+INFO  - 2013-08-19 13:12:56.497; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Index is not optimized therefore skipping building spell check index for: places
+INFO  - 2013-08-19 13:12:56.497; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Index is not optimized therefore skipping building spell check index for: title
+INFO  - 2013-08-19 13:12:56.497; org.apache.solr.core.SolrCore; [kircher] Registered new searcher Searcher@4e668387 main{StandardDirectoryReader(segments_h:35:nrt)}
+INFO  - 2013-08-19 13:12:56.535; org.apache.solr.update.processor.LogUpdateProcessor; [kircher] webapp=/solr path=/update params={} {commit=} 0 938
+INFO  - 2013-08-19 13:13:09.010; org.apache.solr.update.processor.LogUpdateProcessor; [kircher] webapp=/solr path=/update params={} {add=[270 (1443829578177970176), 277 (1443829578216767488), 278 (1443829578239836160), 280 (1443829578275487744), 281 (1443829578292264960), 282 (1443829578299604992), 283 (1443829578313236480), 284 (1443829578327916544), 285 (1443829578335256576), 286 (1443829578343645184), ... (2609 adds)]} 0 3038
+INFO  - 2013-08-19 13:13:09.050; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2013-08-19 13:13:10.549; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@478dabf1; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_i,generation=18,filenames=[segments_i]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@478dabf1; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19,filenames=[_9_Lucene41_0.doc, _9.nvd, _9.fnm, _9.fdt, _9.si, _9_Lucene41_0.pos, _9.nvm, _9_Lucene41_0.tip, _9.fdx, segments_j, _9_Lucene41_0.tim]
+INFO  - 2013-08-19 13:13:10.549; org.apache.solr.core.SolrDeletionPolicy; newest commit = 19[_9_Lucene41_0.doc, _9.nvd, _9.fnm, _9.fdt, _9.si, _9_Lucene41_0.pos, _9.nvm, _9_Lucene41_0.tip, _9.fdx, segments_j, _9_Lucene41_0.tim]
+INFO  - 2013-08-19 13:13:10.569; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@36ed5ba6 main
+INFO  - 2013-08-19 13:13:10.570; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Building spell index for spell checker: default
+INFO  - 2013-08-19 13:13:10.574; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2013-08-19 13:13:12.344; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Building spell index for spell checker: names
+INFO  - 2013-08-19 13:13:12.831; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Building spell index for spell checker: places
+INFO  - 2013-08-19 13:13:13.035; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Building spell index for spell checker: title
+INFO  - 2013-08-19 13:13:13.853; org.apache.solr.core.SolrCore; [kircher] Registered new searcher Searcher@36ed5ba6 main{StandardDirectoryReader(segments_j:37:nrt _9(4.3.1):C2609)}
+INFO  - 2013-08-19 13:13:13.854; org.apache.solr.update.processor.LogUpdateProcessor; [kircher] webapp=/solr path=/update params={commit=true} {commit=} 0 4809
