@@ -73,8 +73,6 @@ class CatalogController < ApplicationController
     #   The ordering of the field names is the order of the display 
     config.add_index_field 'title', :label => 'Title:' 
     config.add_index_field 'volume', :label => 'Volume/APUG:' 
-    config.add_index_field 'names', :label => 'Name(s):' 
-    config.add_index_field 'places', :label => 'Place(s):' 
     config.add_index_field 'language', :label => 'Languag(e):' 
     config.add_index_field 'subject', :label => 'Subject(s):'
 

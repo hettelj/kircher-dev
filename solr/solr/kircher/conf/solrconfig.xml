@@ -130,13 +130,7 @@
       <str name="echoParams">all</str>
     </lst>
   </requestHandler>
-  <updateRequestProcessorChain>
-    <processor class="solr.UUIDUpdateProcessorFactory">
-      <str name="fieldName">id</str>
-    </processor>    
-    <processor class="solr.LogUpdateProcessorFactory" />
-    <processor class="solr.RunUpdateProcessorFactory" />
-  </updateRequestProcessorChain>
+  
   <!-- config for the admin interface -->
   <admin>
     <defaultQuery>solr</defaultQuery>
