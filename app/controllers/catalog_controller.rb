@@ -54,7 +54,7 @@ class CatalogController < ApplicationController
     #
     # :show may be set to false if you don't want the facet to be drawn in the 
     # facet bar
-    config.add_facet_field 'volume', :label => 'Volume/APUG', :sort => 'index' 
+    config.add_facet_field 'volume', :label => 'Volume/APUG', :sort => 'index' , :limit => 20
     config.add_facet_field 'names_facet', :label => 'Name', :limit => 10 
     config.add_facet_field 'occupations_facet', :label => 'Occupation', :limit => 10 
     config.add_facet_field 'places_facet', :label => 'Place', :limit => 10 
