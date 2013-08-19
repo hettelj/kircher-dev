@@ -10,11 +10,16 @@ After cloning this project, you will need to start two separate processes at the
        cd solr
        java -jar start.jar (This starts the solr server)
 
-2. Go back up to the top of the application directory and start the rails server:
+2. Now, start up a new window/tab at the command prompt and go back up to the top of the application directory and start the rails server:
        cd ..
        rails server
 
 You are now hosting the application on your machine. The next thing you will need to do is launch your web browser and put the following address in your address bar:
        http://localhost:3000/
 
+
+== Shutting Down the Application
+When you are finished using this application, go back to your command prompt and input control-C into each window/tab to stop the local servers.
+
+== Contact Us
 If you have any other questions about this application, please contact Glen Worthey (gworthey@stanford.edu) or Jacqueline Hettel (hettelj@stanford.edu).
