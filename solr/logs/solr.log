@@ -3022,3 +3022,97 @@ INFO  - 2013-08-19 09:13:13.129; org.apache.solr.core.CachingDirectoryFactory; l
 INFO  - 2013-08-19 09:13:13.129; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index
 INFO  - 2013-08-19 09:13:13.130; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/hettelj/Desktop/kircher/solr/solr-webapp/webapp/},/Users/hettelj/Desktop/kircher/solr/webapps/solr.war
 INFO  - 2013-08-19 09:13:13.183; org.eclipse.jetty.util.thread.ShutdownThread; shutdown already commenced
+INFO  - 2013-08-19 11:03:09.811; org.eclipse.jetty.server.Server; jetty-8.1.8.v20121106
+INFO  - 2013-08-19 11:03:10.123; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/hettelj/Desktop/kircher/solr/contexts at interval 0
+INFO  - 2013-08-19 11:03:10.145; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/hettelj/Desktop/kircher/solr/contexts/solr-jetty-context.xml
+INFO  - 2013-08-19 11:03:11.333; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-08-19 11:03:11.633; org.eclipse.jetty.server.handler.ContextHandler; started o.e.j.w.WebAppContext{/solr,file:/Users/hettelj/Desktop/kircher/solr/solr-webapp/webapp/},/Users/hettelj/Desktop/kircher/solr/webapps/solr.war
+INFO  - 2013-08-19 11:03:11.634; org.eclipse.jetty.server.handler.ContextHandler; started o.e.j.w.WebAppContext{/solr,file:/Users/hettelj/Desktop/kircher/solr/solr-webapp/webapp/},/Users/hettelj/Desktop/kircher/solr/webapps/solr.war
+INFO  - 2013-08-19 11:03:11.649; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-08-19 11:03:11.718; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-08-19 11:03:11.718; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2013-08-19 11:03:11.729; org.apache.solr.core.CoreContainer$Initializer; looking for solr config file: /Users/hettelj/Desktop/kircher/solr/solr/solr.xml
+INFO  - 2013-08-19 11:03:11.731; org.apache.solr.core.CoreContainer; New CoreContainer 1755659748
+INFO  - 2013-08-19 11:03:11.750; org.apache.solr.core.CoreContainer; Loading CoreContainer using Solr Home: 'solr/'
+INFO  - 2013-08-19 11:03:11.764; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2013-08-19 11:03:12.282; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-08-19 11:03:12.282; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-08-19 11:03:12.282; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-08-19 11:03:12.284; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-08-19 11:03:12.284; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-08-19 11:03:12.285; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-08-19 11:03:12.285; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-08-19 11:03:12.285; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-08-19 11:03:12.285; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-08-19 11:03:12.291; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2013-08-19 11:03:12.679; org.apache.solr.core.CoreContainer; Registering Log Listener
+INFO  - 2013-08-19 11:03:12.698; org.apache.solr.core.CoreContainer; Creating SolrCore 'kircher' using instanceDir: solr/kircher
+INFO  - 2013-08-19 11:03:12.702; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/kircher/'
+INFO  - 2013-08-19 11:03:12.750; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2013-08-19 11:03:12.751; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/extraction/lib).
+WARN  - 2013-08-19 11:03:12.769; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 11:03:12.770; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/clustering/lib).
+WARN  - 2013-08-19 11:03:12.770; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 11:03:12.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/langid/lib).
+WARN  - 2013-08-19 11:03:12.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 11:03:12.771; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../contrib/velocity/lib).
+WARN  - 2013-08-19 11:03:12.772; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/hettelj/Desktop/kircher/solr/solr/kircher/../../../dist).
+WARN  - 2013-08-19 11:03:12.772; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: /total/crap/dir/ignored (resolved as: /total/crap/dir/ignored).
+INFO  - 2013-08-19 11:03:12.854; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_42
+INFO  - 2013-08-19 11:03:12.953; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-08-19 11:03:12.974; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-08-19 11:03:13.078; org.apache.solr.schema.IndexSchema; [kircher] Schema name=kircher
+INFO  - 2013-08-19 11:03:13.783; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2013-08-19 11:03:13.784; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2013-08-19 11:03:13.785; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-08-19 11:03:14.992; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-08-19 11:03:14.999; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-08-19 11:03:15.111; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-08-19 11:03:15.116; org.apache.solr.core.SolrCore; [kircher] Opening new SolrCore at solr/kircher/, dataDir=/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/
+INFO  - 2013-08-19 11:03:15.116; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: kircher
+INFO  - 2013-08-19 11:03:15.118; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-08-19 11:03:15.127; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/hettelj/Desktop/kircher/solr/solr/kircher/data
+INFO  - 2013-08-19 11:03:15.147; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index/
+INFO  - 2013-08-19 11:03:15.161; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/hettelj/Desktop/kircher/solr/solr/kircher/data/index
+INFO  - 2013-08-19 11:03:15.228; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-08-19 11:03:15.228; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.ReplicationHandler
+INFO  - 2013-08-19 11:03:15.229; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-08-19 11:03:15.229; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-08-19 11:03:15.229; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-08-19 11:03:15.231; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2013-08-19 11:03:15.232; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2013-08-19 11:03:15.233; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-08-19 11:03:15.236; org.apache.solr.core.RequestHandlers; created search: solr.SearchHandler
+INFO  - 2013-08-19 11:03:15.236; org.apache.solr.core.RequestHandlers; created document: solr.SearchHandler
+INFO  - 2013-08-19 11:03:15.236; org.apache.solr.core.RequestHandlers; created advanced: solr.SearchHandler
+INFO  - 2013-08-19 11:03:15.258; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-08-19 11:03:15.491; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5f0704e1 main
+INFO  - 2013-08-19 11:03:15.551; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2013-08-19 11:03:15.551; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-08-19 11:03:15.551; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-08-19 11:03:15.609; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: default
+INFO  - 2013-08-19 11:03:15.659; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: names
+INFO  - 2013-08-19 11:03:15.675; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: places
+INFO  - 2013-08-19 11:03:15.734; org.apache.solr.handler.component.SpellCheckComponent; Registering newSearcher listener for spellchecker: title
+INFO  - 2013-08-19 11:03:15.734; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-08-19 11:03:15.785; org.apache.solr.core.SolrCore; [kircher] Registered new searcher Searcher@5f0704e1 main{StandardDirectoryReader(segments_h:33 _8(4.3.1):C2609)}
+INFO  - 2013-08-19 11:03:15.785; org.apache.solr.core.CoreContainer; registering core: kircher
+INFO  - 2013-08-19 11:03:15.787; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/hettelj/Desktop/kircher/solr
+INFO  - 2013-08-19 11:03:15.787; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-08-19 11:03:15.934; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-08-19 11:06:40.434; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=names_facet,memSize=15534,tindexSize=224,time=31,phase1=30,nTerms=892,bigTerms=1,termInstances=2879,uses=0}
+INFO  - 2013-08-19 11:06:40.457; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=occupations_facet,memSize=15107,tindexSize=74,time=16,phase1=16,nTerms=174,bigTerms=1,termInstances=1791,uses=0}
+INFO  - 2013-08-19 11:06:40.464; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=places_facet,memSize=15029,tindexSize=79,time=5,phase1=5,nTerms=345,bigTerms=2,termInstances=1929,uses=0}
+INFO  - 2013-08-19 11:06:40.473; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=year_sort,memSize=14778,tindexSize=46,time=6,phase1=6,nTerms=61,bigTerms=0,termInstances=2258,uses=0}
+INFO  - 2013-08-19 11:06:40.496; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=text_type,memSize=14982,tindexSize=59,time=20,phase1=20,nTerms=53,bigTerms=2,termInstances=782,uses=0}
+INFO  - 2013-08-19 11:06:40.523; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=subject,memSize=15444,tindexSize=65,time=24,phase1=24,nTerms=234,bigTerms=1,termInstances=1346,uses=0}
+INFO  - 2013-08-19 11:06:40.542; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=11&f.volume.facet.sort=index&wt=ruby&rows=10&f.subject.facet.limit=21&stats.field=year_sort&facet.field=volume&facet.field=names_facet&facet.field=occupations_facet&facet.field=places_facet&facet.field=year_sort&facet.field=text_type&facet.field=subject&qt=search&f.text_type.facet.limit=11&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2609 status=0 QTime=248 
+INFO  - 2013-08-19 11:06:43.426; org.apache.solr.request.UnInvertedField; UnInverted multi-valued field {field=type_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+INFO  - 2013-08-19 11:06:43.431; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=11&f.volume.facet.sort=index&wt=ruby&rows=0&f.subject.facet.limit=21&facet.query=year_sort:[918+TO+999]&facet.query=year_sort:[1000+TO+1099]&facet.query=year_sort:[1100+TO+1199]&facet.query=year_sort:[1200+TO+1299]&facet.query=year_sort:[1300+TO+1399]&facet.query=year_sort:[1400+TO+1499]&facet.query=year_sort:[1500+TO+1599]&facet.query=year_sort:[1600+TO+1699]&facet.query=year_sort:[1700+TO+1799]&facet.query=year_sort:[1800+TO+1899]&facet.query=year_sort:[1900+TO+1939]&stats.field=year_sort&qt=search&f.text_type.facet.limit=11&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2609 status=0 QTime=17 
+INFO  - 2013-08-19 11:11:12.638; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=11&f.volume.facet.sort=index&wt=ruby&rows=10&f.subject.facet.limit=21&stats.field=year_sort&facet.field=volume&facet.field=names_facet&facet.field=occupations_facet&facet.field=places_facet&facet.field=year_sort&facet.field=text_type&facet.field=subject&qt=search&f.text_type.facet.limit=11&fq={!raw+f%3Doccupations_facet}Jesuit+(S.J.)&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2454 status=0 QTime=15 
+INFO  - 2013-08-19 11:11:14.448; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=11&f.volume.facet.sort=index&wt=ruby&rows=0&f.subject.facet.limit=21&facet.query=year_sort:[918+TO+999]&facet.query=year_sort:[1000+TO+1099]&facet.query=year_sort:[1100+TO+1199]&facet.query=year_sort:[1200+TO+1299]&facet.query=year_sort:[1300+TO+1399]&facet.query=year_sort:[1400+TO+1499]&facet.query=year_sort:[1500+TO+1599]&facet.query=year_sort:[1600+TO+1699]&facet.query=year_sort:[1700+TO+1799]&facet.query=year_sort:[1800+TO+1899]&facet.query=year_sort:[1900+TO+1939]&stats.field=year_sort&qt=search&f.text_type.facet.limit=11&fq={!raw+f%3Doccupations_facet}Jesuit+(S.J.)&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2454 status=0 QTime=11 
+INFO  - 2013-08-19 11:11:35.984; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={id=277&qt=document&wt=ruby} hits=1 status=0 QTime=10 
+INFO  - 2013-08-19 11:11:36.000; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=11&f.volume.facet.sort=index&wt=ruby&rows=1&f.subject.facet.limit=21&fl=*&start=1&stats.field=year_sort&facet.field=volume&facet.field=names_facet&facet.field=occupations_facet&facet.field=places_facet&facet.field=year_sort&facet.field=text_type&facet.field=subject&qt=search&f.text_type.facet.limit=11&fq={!raw+f%3Doccupations_facet}Jesuit+(S.J.)&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2454 status=0 QTime=9 
+INFO  - 2013-08-19 11:12:14.704; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={id=277&qt=document&wt=ruby} hits=1 status=0 QTime=1 
+INFO  - 2013-08-19 11:12:14.718; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=11&f.volume.facet.sort=index&wt=ruby&rows=1&f.subject.facet.limit=21&fl=*&start=1&stats.field=year_sort&facet.field=volume&facet.field=names_facet&facet.field=occupations_facet&facet.field=places_facet&facet.field=year_sort&facet.field=text_type&facet.field=subject&qt=search&f.text_type.facet.limit=11&fq={!raw+f%3Doccupations_facet}Jesuit+(S.J.)&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2454 status=0 QTime=9 
+INFO  - 2013-08-19 11:13:54.742; org.apache.solr.core.SolrCore; [kircher] webapp=/solr path=/select params={stats=true&f.places_facet.facet.limit=11&f.names_facet.facet.limit=21&f.volume.facet.sort=index&wt=ruby&rows=0&f.subject.facet.limit=21&stats.field=year_sort&f.names_facet.facet.offset=0&facet.field=names_facet&qt=search&f.text_type.facet.limit=11&fq={!raw+f%3Doccupations_facet}Jesuit+(S.J.)&f.volume.facet.limit=11&f.occupations_facet.facet.limit=11} hits=2454 status=0 QTime=5 
